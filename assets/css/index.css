@@ -1,0 +1,55 @@
+nav {
+    font-size: 20px;
+    border-top: 1px solid rgba(128, 128, 128, 0.356);
+    background-color: var(--color-1);
+}
+
+.title-header {
+    margin: 0;
+    display: flex;
+    padding: 20px;
+    font-size: 80px;
+    
+    background-color: var(--color-1);
+    justify-content: center;
+}
+
+nav .navbar-nav {
+    font-size: 24px;
+    justify-content: center;
+    width: 100%;
+}
+
+nav .navbar-nav li {
+    margin: 0 10px;
+}
+
+nav .navbar-nav li a:hover {
+    color: white !important;
+    transform: scale(0.95);
+}
+
+
+main {
+    min-height: 80vh;
+}
+
+.center-item {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.img-effect :hover {
+    transition: all 0.5s;
+    
+    transform: scale(0.98);
+}
+
+.slogan-inicial {
+    font-size: 50px ;
+}
