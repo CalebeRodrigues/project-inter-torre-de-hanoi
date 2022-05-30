@@ -7,11 +7,17 @@
 }
 
 html, body {
-    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: var(--color-white-gray);
 }
 
 body {
     font-family: 'Lora', serif;
+}
+
+main {
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 :root {
@@ -20,4 +26,6 @@ body {
 	--color-3: #febeac;
 	--color-4: #4e383d;
 	--color-5: #d9434f;
+
+    --color-white-gray: rgba(255, 255, 255, 0.808);
 }

@@ -1,0 +1,55 @@
+@media screen and (max-width: 990px) {
+    .menu-nav {
+        display: flex;
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }
+    .slogan-div {
+        text-align: center;
+    }
+    .slogan-inicial {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .title-header {
+        padding: 10px;
+        font-size: 50px;
+    }
+
+    nav .navbar-nav li a {
+        font-size: 18px;
+    }
+
+    .slogan-inicial {
+        font-size: 30px;
+    }
+
+    .slogan-2 {
+        font-size: 25px;
+    }
+
+    #btn-download img {
+        width: 70px;
+        margin-right: 20px;
+    }
+    
+    #btn-download span {
+        font-size: 24px;
+    }
+}
+
+
+
+@media screen and (max-width: 430px) {
+    .title-header {
+        padding: 10px;
+        font-size: 40px;
+    }
+
+    nav .navbar-nav li a {
+        font-size: 16px;
+    }
+}
